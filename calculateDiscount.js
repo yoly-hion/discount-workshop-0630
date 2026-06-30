@@ -5,7 +5,7 @@ function calculateDiscount(price, membership) {
 
   let discountMultiplier = 1;
   if (membership === 'gold') {
-    discountMultiplier = 0.86;
+    discountMultiplier = 0.8;
   } else if (membership === 'silver') {
     discountMultiplier = 0.9;
   }
